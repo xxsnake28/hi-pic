@@ -27,6 +27,7 @@ function createWindow () {
     fullscreenable: false,
     title: 'HiPic',
     webPreferences: {
+      webSecurity: false, // 取消跨域限制
       nodeIntegration: true
     }
   })
