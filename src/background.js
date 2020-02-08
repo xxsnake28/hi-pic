@@ -18,11 +18,11 @@ protocol.registerSchemesAsPrivileged([{ scheme: 'app', privileges: { secure: tru
 function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 800,
-    height: 600,
-    maxWidth: 800,
-    maxHeight: 600,
-    resizable: false,
+    // width: 800,
+    // height: 600,
+    maxWidth: 1200,
+    maxHeight: 800,
+    // resizable: false,
     maximizable: false,
     fullscreenable: false,
     title: 'HiPic',
