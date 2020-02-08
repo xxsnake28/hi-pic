@@ -20,6 +20,12 @@ function createWindow () {
   win = new BrowserWindow({
     width: 800,
     height: 600,
+    maxWidth: 800,
+    maxHeight: 600,
+    resizable: false,
+    maximizable: false,
+    fullscreenable: false,
+    title: 'HiPic',
     webPreferences: {
       nodeIntegration: true
     }
