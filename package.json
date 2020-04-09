@@ -13,6 +13,10 @@
   },
   "main": "background.js",
   "dependencies": {
+    "@uppy/core": "^1.7.1",
+    "@uppy/dashboard": "^1.5.2",
+    "@uppy/locales": "^1.11.0",
+    "@uppy/xhr-upload": "^1.4.2",
     "core-js": "^3.4.4",
     "element-ui": "^2.13.0",
     "vue": "^2.6.10",
